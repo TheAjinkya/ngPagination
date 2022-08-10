@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { TableComponent } from './table/table.component';
 import { JwPaginationModule } from 'jw-angular-pagination';
+import { CoreModule } from './core/core.module';
+import { PublicModule } from './public/public.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { JwPaginationModule } from 'jw-angular-pagination';
     AppRoutingModule,
     BrowserAnimationsModule, 
     MaterialModule,
-    JwPaginationModule
+    JwPaginationModule,
+    CoreModule,
+    PublicModule
   ],
   providers: [],
   bootstrap: [AppComponent]
